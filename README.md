@@ -1,2 +1,2 @@
-# clase2_06_julio
+# BOLVITO_TAREA2
 manipulacion del DOM
