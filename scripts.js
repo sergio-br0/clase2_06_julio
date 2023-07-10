@@ -39,7 +39,6 @@ console.log(enlacesSeguros)
 let elemento = document.querySelector('noExiste');
 console.log(elemento);
 
-
 //Operaciones con colecciones
 // Childnodes
 // Devuelve una colección de hijos nodos del elemento dado donde el primer nodo hijo es asignado un índice 0.
@@ -58,7 +57,6 @@ console.log(cajaTexto.children[2].innerText = 'cambio realizado al parrafo desde
 // puede ser tanto null como "" (una cadena vacía);
 // setAtrribute()
 // Establece el valor de un atributo en el elemento indicado.
-
 
 console.log(enlace.getAttribute('href'));
 
@@ -91,10 +89,10 @@ console.log("Texto del título:", tituloActual);
 
 let mostrar = document.getElementById('parrafo1');
 
-console.log(mostrar.textContent)
-console.log(mostrar.innerText)
-console.log(mostrar.innerHTML)
-console.log(mostrar.outerHTML)
+console.log(mostrar.textContent);
+console.log(mostrar.innerText);
+console.log(mostrar.innerHTML);
+console.log(mostrar.outerHTML);
 
 //Creacion de nuevos elementos con documet.createElement();
 const parrafoNuevo = document.createElement('p')
